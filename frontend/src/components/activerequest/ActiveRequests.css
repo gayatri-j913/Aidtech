@@ -1,0 +1,16 @@
+/* ActiveRequests.css */
+.tier-high {
+    /* High urgency (tier ≥ 8): Vivid red gradient */
+    background: linear-gradient(to bottom right, #ff8a80, #ff5252);
+  }
+  
+  .tier-medium {
+    /* Medium urgency (tier 5-7): Vibrant amber gradient */
+    background: linear-gradient(to bottom right, #ffe082, #ffd54f);
+  }
+  
+  .tier-low {
+    /* Low urgency (tier < 5): Fresh green gradient */
+    background: linear-gradient(to bottom right, #a5d6a7, #81c784);
+  }
+  
